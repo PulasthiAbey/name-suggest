@@ -6,8 +6,8 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final wordPair = WordPair.random(); // Add this line.
-    return MaterialApp(title: 'Welcome to Flutter', home: RandomWords());
+    return MaterialApp(
+        title: 'Welcome to Flutter Pulasthi Aberathne', home: RandomWords());
   }
 }
 
